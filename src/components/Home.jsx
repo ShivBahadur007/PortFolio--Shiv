@@ -12,7 +12,6 @@ import { FaNodeJs } from "react-icons/fa6";
 import { ReactTyped,Typed } from "react-typed";
 
 
-import pic from "../../public/desiner.jpg"
 
 
 
@@ -85,7 +84,7 @@ function Home() {
           
             </div>
         <div className='md:w-1/2 md:mt-20 md:ml-48 mt-8 order-1'>
-        <img src={pic} className='rounded-full md:w-[450px] md:h-[450px]' alt="" />
+        <img src="/profile.jpg" className='rounded-full md:w-[450px] md:h-[450px]' alt="profile" />
         </div>
         </div>
     </div>
