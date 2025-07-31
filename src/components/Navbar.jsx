@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import pic from "../../public/shivimgzo.jpg"
+import pic from "../../public/desiner.jpg"
 import { AiOutlineMenu } from "react-icons/ai";
 import { IoCloseSharp } from "react-icons/io5";
 import { Link } from 'react-scroll';
@@ -73,7 +73,20 @@ function Navbar() {
                {
                         navItems.map(({id, text})=>
                         (
-                            <li className='hover:scale-105 duration-200 font-semibold cursor-pointer' key={id}>{text}</li>
+                            <li className='hover:scale-105 duration-200 font-semibold cursor-pointer' 
+                            key={id}
+                            >
+                                <Link 
+                                onClick={()=>setMenu(!menu)}
+                                to={text}
+                                smooth={true}
+                                duration={500}
+                                offset={-70}
+                                activeClass='active'
+                                >
+                                {text}
+                                </Link>
+                                </li>
         
                         ))
                     }

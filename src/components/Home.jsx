@@ -11,7 +11,8 @@ import { FaNodeJs } from "react-icons/fa6";
 
 import { ReactTyped,Typed } from "react-typed";
 
-import pic from "../../public/shivimgzo.jpg"
+
+import pic from "../../public/desiner.jpg"
 
 
 
@@ -47,22 +48,22 @@ function Home() {
                 <h1 className='font-bold '>Available on</h1>
                <ul className='flex space-x-5'>
                  <li>
-                  <a href="https://www.facebook.com/" target= "_blank">
+                  <a href="https://www.facebook.com/profile.php?id=100071805665348" target= "_blank">
                     <FaFacebook className='text-2xl cursor-pointer'/>
                     </a>
                  </li>
                  <li>
-                  <a href="https://www.linkedin.com/" target= "_blank">
+                  <a href="https://www.linkedin.com/in/shiv-bahadur-a09a47288/" target= "_blank">
                      <FaLinkedin className='text-2xl cursor-pointer'/>
                      </a>
                  </li>
                 <li>
-                   <a href="https://www.github.com/" target= "_blank">
+                   <a href="https://github.com/ShivBahadur007" target= "_blank">
                     <FaGithub className='text-2xl cursor-pointer'/>
                     </a>
                 </li>
                 <li>
-                   <a href="https://web.telegram.org/k/" target= "_blank">
+                   <a href="https://t.me/Shiv860/" target= "_blank">
                     <FaTelegramPlane className='text-2xl cursor-pointer'/>
                     </a>
                 </li>
